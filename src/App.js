@@ -1,26 +1,29 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import * as d3 from 'd3'
+import './App.css'
 
-function App() {
+// experiment with the world geojson dataset.
+const D3 = () => {
+  const [width, height] = [960, 480]
+  
+  const url = 'https://raw.githubusercontent.com/johan/world.geo.json/master/countries.geo.json'
+  d3.json(url).then( data => { 
+    console.log(data)
+  })
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <svg width={width} height={height} />
+  )
 }
 
-export default App;
+const App = () => 
+    <div className="App">
+      <header className="App-header">
+          D3 Hayday in React
+      </header>
+      <section>
+        <D3/>
+      </section>
+    </div>
+
+export default App
