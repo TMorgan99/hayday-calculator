@@ -25,7 +25,9 @@ g.building rect {
   opacity: 0.7;
 
 }
+/* cannot set x,y on text element */
 g.building text {
+  text-anchor: middle;
   font: italic 24px serif;
   fill: whitesmoke;
 }
@@ -35,13 +37,6 @@ g.building image {
   height: 100px;
   width: 100px;
 }
-g.product image {
-  x: -30px;
-  y: -40px;
-  height: 60px;
-  width: 60px;
-}
-
 
 g.product ellipse {
   cx: 0px;
@@ -58,10 +53,18 @@ g.product elipse .highlight {
 }
 
 g.product text {
-  x: -30px;
-  y: 35px;
+  text-anchor: middle;
+  text-shadow: 1px 1px 2px navy; 
+  /* text-transform: capitalize; */
   font: italic 18px serif;
   fill: rgb(44, 46, 26);
+}
+
+g.product image {
+  x: -30px;
+  y: -40px;
+  height: 60px;
+  width: 60px;
 }
 
 
