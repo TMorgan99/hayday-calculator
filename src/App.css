@@ -2,17 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #1c53c0fa;
   min-height: 10vh;
@@ -24,15 +13,68 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+g.building rect {
+  x: -60px;
+  y: -75px;
+  width: 120px;
+  height: 180px;
+  rx: 15px;
+  fill: greenyellow;
+  stroke:  red;
+  stroke-width: 3px;
+  opacity: 0.7;
+
+}
+g.building text {
+  font: italic 24px serif;
+  fill: whitesmoke;
+}
+g.building image {
+  x: -50px;
+  y: -30px;
+  height: 100px;
+  width: 100px;
+}
+g.product image {
+  x: -30px;
+  y: -40px;
+  height: 60px;
+  width: 60px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+g.product ellipse {
+  cx: 0px;
+  cy: 0px; 
+  rx: 60px;
+  ry: 40px;
+  stroke: #ff0000; 
+  stroke-width: 5px;
+  fill: blanchedalmond;
+}
+
+g.product elipse .highlight {
+  stroke-dasharray: 10 5;
+}
+
+g.product text {
+  x: -30px;
+  y: 35px;
+  font: italic 18px serif;
+  fill: rgb(44, 46, 26);
+}
+
+
+/* 
+.node text {
+  text-anchor: middle;
+  text-shadow: 1px 1px 2px navy; 
+  text-transform: capitalize;
+ }
+ */
+
+ .links line {
+  stroke: black;
+  stroke-opacity: 0.9;
+  stroke-width: 5px;
 }

@@ -1,0 +1,1 @@
+{"buildings":[{"name":"Bakery"}],"nodes":[{"name":"Wheat"},{"name":"Bread"}],"inlink":[{"source":"Wheat","target":"Bakery"}],"outlink":[{"source":"Bakery","target":"Bread"}]}

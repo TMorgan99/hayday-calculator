@@ -1,0 +1,557 @@
+level,building,product,time,ingredient,Quantity
+2,Bakery,Bread,4,Wheat,3
+7,Bakery,Corn Bread,25,Corn,2
+7,Bakery,Corn Bread,25,Egg,2
+10,Bakery,Cookie,51,Wheat,2
+10,Bakery,Cookie,51,Brown Sugar,1
+10,Bakery,Cookie,51,Egg,2
+19,Bakery,Raspberry Muffin,38,Raspberry,2
+19,Bakery,Raspberry Muffin,38,Wheat,2
+19,Bakery,Raspberry Muffin,38,Egg,1
+26,Bakery,Blackberry Muffin,38,Blackberry,2
+26,Bakery,Blackberry Muffin,38,Wheat,1
+26,Bakery,Blackberry Muffin,38,Egg,2
+33,Bakery,Pizza,12,Wheat,2
+33,Bakery,Pizza,12,Tomato,1
+33,Bakery,Pizza,12,Cheese,1
+37,Bakery,Spicy Pizza,12,Wheat,2
+37,Bakery,Spicy Pizza,12,Tomato,1
+37,Bakery,Spicy Pizza,12,Cheese,1
+37,Bakery,Spicy Pizza,12,Chili Pepper,1
+39,Bakery,Potato Bread,38,Potato,2
+39,Bakery,Potato Bread,38,White Sugar,1
+39,Bakery,Potato Bread,38,Egg,3
+39,Bakery,Potato Bread,38,Butter,1
+45,Bakery,Frutti di Mare Pizza,12,Wheat,2
+45,Bakery,Frutti di Mare Pizza,12,Cheese,1
+45,Bakery,Frutti di Mare Pizza,12,Fish Fillet,1
+45,Bakery,Frutti di Mare Pizza,12,Lobster Tail,1
+91,Bakery,Banana Bread,25,Banana,3
+91,Bakery,Banana Bread,25,Grapes,2
+91,Bakery,Banana Bread,25,Wheat,3
+91,Bakery,Banana Bread,25,Egg,1
+3,Feed Mill,Chicken Feed,4,Wheat,2
+3,Feed Mill,Chicken Feed,4,Corn,1
+6,Feed Mill,Cow Feed,8,Wheat,1
+6,Feed Mill,Cow Feed,8,Soybean,2
+10,Feed Mill,Pig Feed,18,Carrot,2
+10,Feed Mill,Pig Feed,18,Soybean,1
+16,Feed Mill,Sheep Feed,27,Wheat,3
+16,Feed Mill,Sheep Feed,27,Soybean,1
+32,Feed Mill,Goat Feed,36,Wheat,1
+32,Feed Mill,Goat Feed,36,Carrot,2
+32,Feed Mill,Goat Feed,36,Corn,1
+34,Feed Mill,Wheat Bundle,81,Wheat,75
+6,Dairy,Cream,17,Milk,1
+9,Dairy,Butter,25,Milk,2
+12,Dairy,Cheese,51,Milk,3
+33,Dairy,Goat Cheese,76,Goat Milk,2
+7,Sugar Mill,Brown Sugar,17,Sugarcane,1
+13,Sugar Mill,White Sugar,34,Sugarcane,2
+18,Sugar Mill,Syrup,76,Sugarcane,4
+8,Popcorn Pot,Popcorn,25,Corn,2
+16,Popcorn Pot,Buttered Popcorn,51,Corn,2
+16,Popcorn Pot,Buttered Popcorn,51,Butter,1
+25,Popcorn Pot,Chili Popcorn,102,Corn,2
+25,Popcorn Pot,Chili Popcorn,102,Chili Pepper,2
+40,Popcorn Pot,Honey Popcorn,76,Corn,2
+40,Popcorn Pot,Honey Popcorn,76,Honey,2
+44,Popcorn Pot,Chocolate Popcorn,127,Corn,2
+44,Popcorn Pot,Chocolate Popcorn,127,Cacao,2
+9,BBQ Grill,Pancake,25,Egg,3
+9,BBQ Grill,Pancake,25,Brown Sugar,1
+11,BBQ Grill,Bacon and Eggs,51,Egg,4
+11,BBQ Grill,Bacon and Eggs,51,Bacon,2
+18,BBQ Grill,Hamburger,102,Bread,2
+18,BBQ Grill,Hamburger,102,Bacon,2
+27,BBQ Grill,Fish Burger,102,Fish Fillet,2
+27,BBQ Grill,Fish Burger,102,Bread,2
+27,BBQ Grill,Fish Burger,102,Chili Pepper,1
+30,BBQ Grill,Roasted Tomatoes,76,Tomato,2
+35,BBQ Grill,Baked Potato,29,Potato,2
+35,BBQ Grill,Baked Potato,29,Cream,1
+35,BBQ Grill,Baked Potato,29,Chili Pepper,1
+35,BBQ Grill,Baked Potato,29,Cheese,1
+41,BBQ Grill,Fish and Chips,76,Fish Fillet,2
+41,BBQ Grill,Fish and Chips,76,Potato,3
+48,BBQ Grill,Lobster Skewer,34,Lobster Tail,1
+48,BBQ Grill,Lobster Skewer,34,Honey,1
+48,BBQ Grill,Lobster Skewer,34,Chili Pepper,1
+68,BBQ Grill,Grilled Onion,51,Onion,2
+68,BBQ Grill,Grilled Onion,51,Butter,1
+90,BBQ Grill,Grilled Eggplant,34,Eggplant,3
+90,BBQ Grill,Grilled Eggplant,34,Salsa,1
+94,BBQ Grill,Banana Pancakes,51,Banana,1
+94,BBQ Grill,Banana Pancakes,51,Blackberry,2
+94,BBQ Grill,Banana Pancakes,51,Wheat,3
+94,BBQ Grill,Banana Pancakes,51,Cream,1
+96,BBQ Grill,Fish Skewer,25,Fish Fillet,1
+96,BBQ Grill,Fish Skewer,25,Mushroom,3
+96,BBQ Grill,Fish Skewer,25,Sesame,2
+96,BBQ Grill,Fish Skewer,25,Ginger,1
+14,Pie Oven,Carrot Pie,51,Carrot,3
+14,Pie Oven,Carrot Pie,51,Wheat,2
+14,Pie Oven,Carrot Pie,51,Egg,1
+15,Pie Oven,Pumpkin Pie,102,Pumpkin,3
+15,Pie Oven,Pumpkin Pie,102,Wheat,1
+15,Pie Oven,Pumpkin Pie,102,Egg,1
+18,Pie Oven,Bacon Pie,153,Bacon,3
+18,Pie Oven,Bacon Pie,153,Wheat,2
+18,Pie Oven,Bacon Pie,153,Egg,1
+28,Pie Oven,Apple Pie,127,Apple,3
+28,Pie Oven,Apple Pie,127,Wheat,2
+28,Pie Oven,Apple Pie,127,Egg,1
+28,Pie Oven,Apple Pie,127,Syrup,1
+28,Pie Oven,Fish Pie,102,Fish Fillet,3
+28,Pie Oven,Fish Pie,102,Wheat,2
+28,Pie Oven,Fish Pie,102,Egg,1
+34,Pie Oven,Feta Pie,76,Goat Cheese,1
+34,Pie Oven,Feta Pie,76,Wheat,2
+34,Pie Oven,Feta Pie,76,Egg,1
+36,Pie Oven,Casserole,102,Potato,2
+36,Pie Oven,Casserole,102,Cheese,1
+36,Pie Oven,Casserole,102,Bacon,2
+36,Pie Oven,Casserole,102,Egg,2
+39,Pie Oven,Shepherds Pie,85,Potato,2
+39,Pie Oven,Shepherds Pie,85,Carrot,2
+39,Pie Oven,Shepherds Pie,85,Bacon,2
+39,Pie Oven,Shepherds Pie,85,Pumpkin,2
+67,Pie Oven,Lemon Pie,114,Lemon Curd,1
+67,Pie Oven,Lemon Pie,114,Wheat,2
+67,Pie Oven,Lemon Pie,114,Egg,1
+76,Pie Oven,Peach Tart,127,Peach,3
+76,Pie Oven,Peach Tart,127,Wheat,2
+76,Pie Oven,Peach Tart,127,Cream,1
+76,Pie Oven,Peach Tart,127,Egg,2
+99,Pie Oven,Eggplant Parmesan,38,Eggplant,4
+99,Pie Oven,Eggplant Parmesan,38,Tomato Sauce,1
+99,Pie Oven,Eggplant Parmesan,38,Cheese,1
+17,Loom,Sweater,62,Wool,2
+18,Loom,Cotton Fabric,25,Cotton,3
+19,Loom,Blue Woolly Hat,51,Wool,1
+19,Loom,Blue Woolly Hat,51,Indigo,1
+20,Loom,Blue Sweater,153,Wool,2
+20,Loom,Blue Sweater,153,Indigo,2
+48,Loom,Red Scarf,127,Wool,2
+48,Loom,Red Scarf,127,Strawberry,2
+71,Loom,Flower Shawl,76,Wool,2
+71,Loom,Flower Shawl,76,Blackberry,1
+71,Loom,Flower Shawl,76,Sunflower,3
+19,Sewing Machine,Cotton Shirt,38,Cotton Fabric,2
+21,Sewing Machine,Wooly Chaps,76,Cotton Fabric,1
+21,Sewing Machine,Wooly Chaps,76,Wool,3
+25,Sewing Machine,Violet Dress,114,Cotton Fabric,2
+25,Sewing Machine,Violet Dress,114,Indigo,1
+25,Sewing Machine,Violet Dress,114,Strawberry,1
+51,Sewing Machine,Pillow,153,Cotton Fabric,2
+51,Sewing Machine,Pillow,153,Duck Feather,3
+59,Sewing Machine,Blanket,178,Cotton Fabric,3
+59,Sewing Machine,Blanket,178,Duck Feather,5
+59,Sewing Machine,Blanket,178,Pumpkin,1
+21,Cake Oven,Carrot Cake,76,Carrot,2
+21,Cake Oven,Carrot Cake,76,Butter,1
+21,Cake Oven,Carrot Cake,76,Brown Sugar,1
+23,Cake Oven,Cream Cake,153,Wheat,5
+23,Cake Oven,Cream Cake,153,Cream,1
+23,Cake Oven,Cream Cake,153,White Sugar,1
+23,Cake Oven,Red Berry Cake,51,Strawberry,1
+23,Cake Oven,Red Berry Cake,51,Cherry,2
+23,Cake Oven,Red Berry Cake,51,Milk,1
+23,Cake Oven,Red Berry Cake,51,Egg,1
+24,Cake Oven,Cheesecake,204,Cookie,1
+24,Cake Oven,Cheesecake,204,Cheese,1
+35,Cake Oven,Strawberry Cake,153,Wheat,3
+35,Cake Oven,Strawberry Cake,153,Cream,1
+35,Cake Oven,Strawberry Cake,153,White Sugar,1
+35,Cake Oven,Strawberry Cake,153,Strawberry,2
+36,Cake Oven,Chocolate Cake,102,Butter,1
+36,Cake Oven,Chocolate Cake,102,Brown Sugar,1
+36,Cake Oven,Chocolate Cake,102,Cacao,2
+38,Cake Oven,Potato Feta Cake,62,Potato,1
+38,Cake Oven,Potato Feta Cake,62,Goat Cheese,1
+38,Cake Oven,Potato Feta Cake,62,Egg,4
+42,Cake Oven,Honey Apple Cake,170,Wheat,2
+42,Cake Oven,Honey Apple Cake,170,Egg,2
+42,Cake Oven,Honey Apple Cake,170,Apple,2
+42,Cake Oven,Honey Apple Cake,170,Honey,2
+65,Cake Oven,Pineapple Cake,63,Pineapple,3
+65,Cake Oven,Pineapple Cake,63,Wheat,4
+65,Cake Oven,Pineapple Cake,63,Egg,2
+65,Cake Oven,Pineapple Cake,63,Cherry,2
+68,Cake Oven,Lemon Cake,127,Lemon Curd,2
+68,Cake Oven,Lemon Cake,127,Cream,1
+68,Cake Oven,Lemon Cake,127,Egg,2
+68,Cake Oven,Lemon Cake,127,Wheat,3
+89,Cake Oven,Fruit Cake,153,Wheat,3
+89,Cake Oven,Fruit Cake,153,Orange,2
+89,Cake Oven,Fruit Cake,153,Cherry,2
+89,Cake Oven,Fruit Cake,153,Grapes,2
+24,Smelter,Silver Bar,408,Silver Ore,3
+25,Smelter,Gold Bar,612,Gold Ore,3
+25,Smelter,Platinum Bar,816,Platinum Ore,3
+33,Smelter,Refined Coal,306,Coal,3
+34,Smelter,Iron Bar,357,Iron Ore,3
+26,Juice Press,Carrot Juice,25,Carrot,3
+28,Juice Press,Apple Juice,102,Apple,2
+30,Juice Press,Cherry Juice,127,Cherry,2
+31,Juice Press,Tomato Juice,76,Tomato,2
+31,Juice Press,Berry Juice,153,Raspberry,1
+31,Juice Press,Berry Juice,153,Blackberry,1
+52,Juice Press,Pineapple Juice,38,Pineapple,3
+71,Juice Press,Orange Juice,102,Orange,2
+84,Juice Press,Grape Juice,127,Grapes,2
+92,Juice Press,Watermelon Juice,51,Watermelon,2
+29,Ice Cream Maker,Vanilla Ice Cream,102,Cream,1
+29,Ice Cream Maker,Vanilla Ice Cream,102,Milk,1
+29,Ice Cream Maker,Vanilla Ice Cream,102,White Sugar,1
+33,Ice Cream Maker,Cherry Popsicle,153,Cherry Juice,1
+33,Ice Cream Maker,Cherry Popsicle,153,Syrup,1
+34,Ice Cream Maker,Strawberry Ice Cream,204,Cream,1
+34,Ice Cream Maker,Strawberry Ice Cream,204,Milk,1
+34,Ice Cream Maker,Strawberry Ice Cream,204,White Sugar,1
+34,Ice Cream Maker,Strawberry Ice Cream,204,Strawberry,3
+39,Ice Cream Maker,Chocolate Ice Cream,127,Cream,1
+39,Ice Cream Maker,Chocolate Ice Cream,127,Milk,1
+39,Ice Cream Maker,Chocolate Ice Cream,127,White Sugar,1
+39,Ice Cream Maker,Chocolate Ice Cream,127,Cacao,2
+50,Ice Cream Maker,Sesame Ice Cream,102,Sesame,3
+50,Ice Cream Maker,Sesame Ice Cream,102,Cream,1
+50,Ice Cream Maker,Sesame Ice Cream,102,Brown Sugar,1
+78,Ice Cream Maker,Orange Sorbet,178,Orange,2
+78,Ice Cream Maker,Orange Sorbet,178,Honey,1
+83,Ice Cream Maker,Peach Ice Cream,153,Peach,2
+83,Ice Cream Maker,Peach Ice Cream,153,Cream,1
+83,Ice Cream Maker,Peach Ice Cream,153,Honey,1
+85,Ice Cream Maker,Mint Ice Cream,114,Cacao,1
+85,Ice Cream Maker,Mint Ice Cream,114,Mint,2
+85,Ice Cream Maker,Mint Ice Cream,114,Cream,1
+85,Ice Cream Maker,Mint Ice Cream,114,White Sugar,1
+96,Ice Cream Maker,Banana Split,178,Banana,1
+96,Ice Cream Maker,Banana Split,178,Cream,1
+96,Ice Cream Maker,Banana Split,178,Cherry,3
+35,Jam Maker,Apple Jam,306,Apple,3
+36,Jam Maker,Raspberry Jam,357,Raspberry,3
+37,Jam Maker,Blackberry Jam,408,Blackberry,3
+38,Jam Maker,Cherry Jam,357,Cherry,3
+50,Jam Maker,Strawberry Jam,382,Strawberry,3
+74,Jam Maker,Marmalade,433,Orange,3
+79,Jam Maker,Peach Jam,408,Peach,3
+85,Jam Maker,Grape Jam,331,Grapes,3
+94,Jam Maker,Plum Jam,255,Plum,3
+38,Jeweler,Bracelet,102,Silver Bar,2
+38,Jeweler,Bracelet,102,Gold Bar,1
+39,Jeweler,Necklace,153,Silver Bar,2
+39,Jeweler,Necklace,153,Gold Bar,1
+39,Jeweler,Necklace,153,Platinum Bar,1
+40,Jeweler,Diamond Ring,204,Gold Bar,2
+40,Jeweler,Diamond Ring,204,Platinum Bar,2
+40,Jeweler,Diamond Ring,204,Diamond,1
+41,Jeweler,Iron Bracelet,76,Iron Bar,2
+41,Jeweler,Iron Bracelet,76,Refined Coal,2
+41,Jeweler,Iron Bracelet,76,Silver Bar,1
+98,Jeweler,Flower Pendant,51,Peony,3
+98,Jeweler,Flower Pendant,51,Gold Bar,2
+98,Jeweler,Flower Pendant,51,Platinum Bar,1
+39,Honey Extractor,Honey,17,Honeycomb,2
+48,Honey Extractor,Beeswax,38,Honeycomb,3
+42,Coffee Kiosk,Espresso,4,Coffee Bean,3
+42,Coffee Kiosk,Espresso,4,White Sugar,1
+43,Coffee Kiosk,Caffe Latte,8,Coffee Bean,2
+43,Coffee Kiosk,Caffe Latte,8,Milk,1
+43,Coffee Kiosk,Caffe Latte,8,White Sugar,1
+45,Coffee Kiosk,Caffe Mocha,12,Coffee Bean,1
+45,Coffee Kiosk,Caffe Mocha,12,Cacao,2
+45,Coffee Kiosk,Caffe Mocha,12,Cream,1
+46,Coffee Kiosk,Raspberry Mocha,12,Coffee Bean,1
+46,Coffee Kiosk,Raspberry Mocha,12,Cacao,1
+46,Coffee Kiosk,Raspberry Mocha,12,Cream,1
+46,Coffee Kiosk,Raspberry Mocha,12,Raspberry,1
+47,Coffee Kiosk,Hot Chocolate,21,Cacao,2
+47,Coffee Kiosk,Hot Chocolate,21,Milk,1
+47,Coffee Kiosk,Hot Chocolate,21,Cream,1
+47,Coffee Kiosk,Hot Chocolate,21,White Sugar,1
+62,Coffee Kiosk,Caramel Latte,12,Coffee Bean,2
+62,Coffee Kiosk,Caramel Latte,12,Toffee,1
+62,Coffee Kiosk,Caramel Latte,12,Milk,1
+88,Coffee Kiosk,Iced Banana Latte,17,Banana,1
+88,Coffee Kiosk,Iced Banana Latte,17,Coffee Bean,2
+88,Coffee Kiosk,Iced Banana Latte,17,Milk,1
+46,Soup Kitchen,Lobster Soup,127,Lobster Tail,2
+46,Soup Kitchen,Lobster Soup,127,Cream,1
+46,Soup Kitchen,Lobster Soup,127,Tomato,1
+46,Soup Kitchen,Lobster Soup,127,Chili Pepper,2
+47,Soup Kitchen,Tomato Soup,76,Tomato,2
+47,Soup Kitchen,Tomato Soup,76,Tomato Juice,1
+47,Soup Kitchen,Tomato Soup,76,Chili Pepper,1
+47,Soup Kitchen,Tomato Soup,76,Goat Cheese,1
+49,Soup Kitchen,Pumpkin Soup,102,Pumpkin,3
+49,Soup Kitchen,Pumpkin Soup,102,Carrot,2
+49,Soup Kitchen,Pumpkin Soup,102,Butter,1
+49,Soup Kitchen,Pumpkin Soup,102,Honey,1
+53,Soup Kitchen,Fish Soup,153,Potato,3
+53,Soup Kitchen,Fish Soup,153,Milk,1
+53,Soup Kitchen,Fish Soup,153,Fish Fillet,2
+53,Soup Kitchen,Fish Soup,153,Carrot,1
+72,Soup Kitchen,Onion Soup,127,Onion,3
+72,Soup Kitchen,Onion Soup,127,Cheese,1
+72,Soup Kitchen,Onion Soup,127,Bread,2
+73,Soup Kitchen,Noodle Soup,102,Rice Noodles,3
+73,Soup Kitchen,Noodle Soup,102,Carrot,2
+73,Soup Kitchen,Noodle Soup,102,Chili Pepper,1
+73,Soup Kitchen,Noodle Soup,102,Egg,2
+78,Soup Kitchen,Potato Soup,127,Potato,3
+78,Soup Kitchen,Potato Soup,127,Milk,1
+78,Soup Kitchen,Potato Soup,127,Onion,2
+81,Soup Kitchen,Bell Pepper Soup,51,Bell Pepper,2
+81,Soup Kitchen,Bell Pepper Soup,51,Chili Pepper,1
+81,Soup Kitchen,Bell Pepper Soup,51,Bread,1
+81,Soup Kitchen,Bell Pepper Soup,51,Olive Oil,1
+87,Soup Kitchen,Broccoli Soup,63,Broccoli,3
+87,Soup Kitchen,Broccoli Soup,63,Potato,3
+87,Soup Kitchen,Broccoli Soup,63,Onion,1
+104,Soup Kitchen,Mushroom Soup,68,Mushroom,3
+104,Soup Kitchen,Mushroom Soup,68,Onion,2
+104,Soup Kitchen,Mushroom Soup,68,Milk,1
+48,Candle Maker,Strawberry Candle,102,Beeswax,1
+48,Candle Maker,Strawberry Candle,102,Strawberry,2
+52,Candle Maker,Raspberry Candle,89,Beeswax,1
+52,Candle Maker,Raspberry Candle,89,Raspberry,2
+72,Candle Maker,Lemon Candle,114,Beeswax,1
+72,Candle Maker,Lemon Candle,114,Lemon,2
+95,Candle Maker,Floral Candle,102,Beeswax,1
+95,Candle Maker,Floral Candle,102,Peony,2
+95,Candle Maker,Floral Candle,102,Sunflower,2
+95,Candle Maker,Floral Candle,102,Indigo,2
+49,Flower Shop,Rustic Bouquet,45,Indigo,3
+49,Flower Shop,Rustic Bouquet,45,Wheat,5
+49,Flower Shop,Rustic Bouquet,45,Cotton,3
+65,Flower Shop,Bright Bouquet,20,Sunflower,5
+65,Flower Shop,Bright Bouquet,20,Indigo,3
+65,Flower Shop,Bright Bouquet,20,Cotton,1
+65,Flower Shop,Bright Bouquet,20,Iron Ore,5
+90,Flower Shop,Candy Bouquet,20,Peony,3
+90,Flower Shop,Candy Bouquet,20,Caramel Apple,1
+90,Flower Shop,Candy Bouquet,20,Toffee,1
+93,Flower Shop,Soft Bouquet,30,Peony,4
+93,Flower Shop,Soft Bouquet,30,Cotton,1
+93,Flower Shop,Soft Bouquet,30,Cotton Fabric,1
+51,Candy Machine,Caramel Apple,102,Apple,2
+51,Candy Machine,Caramel Apple,102,Syrup,1
+52,Candy Machine,Toffee,76,Butter,1
+52,Candy Machine,Toffee,76,Wheat,1
+52,Candy Machine,Toffee,76,White Sugar,1
+54,Candy Machine,Chocolate,1020,Cacao,3
+54,Candy Machine,Chocolate,1020,Cream,1
+54,Candy Machine,Chocolate,1020,White Sugar,1
+57,Candy Machine,Lollipop,612,Syrup,1
+57,Candy Machine,Lollipop,612,Strawberry,2
+57,Candy Machine,Lollipop,612,Cherry,1
+60,Candy Machine,Jelly Beans,1224,Raspberry Jam,1
+60,Candy Machine,Jelly Beans,1224,Blackberry Jam,1
+60,Candy Machine,Jelly Beans,1224,White Sugar,1
+78,Candy Machine,Sesame Brittle,51,Sesame,3
+78,Candy Machine,Sesame Brittle,51,Ginger,1
+78,Candy Machine,Sesame Brittle,51,Honey,1
+54,Sauce Maker,Soy Sauce,153,Soybean,9
+54,Sauce Maker,Soy Sauce,153,Wheat,1
+60,Sauce Maker,Olive Oil,38,Olive,3
+62,Sauce Maker,Mayonnaise,12,Egg,4
+62,Sauce Maker,Mayonnaise,12,Olive Oil,1
+66,Sauce Maker,Lemon Curd,21,Lemon,2
+66,Sauce Maker,Lemon Curd,21,Egg,2
+66,Sauce Maker,Lemon Curd,21,Butter,1
+66,Sauce Maker,Lemon Curd,21,White Sugar,1
+66,Sauce Maker,Olive Dip,38,Olive,3
+66,Sauce Maker,Olive Dip,38,Lemon,1
+66,Sauce Maker,Olive Dip,38,Fish Fillet,1
+66,Sauce Maker,Olive Dip,38,Bread,2
+69,Sauce Maker,Tomato Sauce,25,Tomato,2
+69,Sauce Maker,Tomato Sauce,25,Brown Sugar,1
+69,Sauce Maker,Tomato Sauce,25,Lemon,1
+77,Sauce Maker,Salsa,17,Tomato,2
+77,Sauce Maker,Salsa,17,Onion,2
+77,Sauce Maker,Salsa,17,Chili Pepper,2
+56,Sushi Bar,Sushi Roll,51,Rice,15
+56,Sushi Bar,Sushi Roll,51,Soy Sauce,1
+56,Sushi Bar,Sushi Roll,51,Fish Fillet,1
+58,Sushi Bar,Lobster Sushi,51,Rice,15
+58,Sushi Bar,Lobster Sushi,51,Soy Sauce,1
+58,Sushi Bar,Lobster Sushi,51,Lobster Tail,1
+63,Sushi Bar,Egg Sushi,104,Rice,15
+63,Sushi Bar,Egg Sushi,104,Egg,4
+63,Sushi Bar,Egg Sushi,104,Soy Sauce,1
+63,Sushi Bar,Egg Sushi,104,Brown Sugar,1
+76,Sushi Bar,Big Sushi Roll,76,Rice,20
+76,Sushi Bar,Big Sushi Roll,76,Fish Fillet,1
+76,Sushi Bar,Big Sushi Roll,76,Egg,3
+76,Sushi Bar,Big Sushi Roll,76,Lettuce,5
+58,Salad Bar,Feta Salad,76,Lettuce,3
+58,Salad Bar,Feta Salad,76,Goat Cheese,2
+58,Salad Bar,Feta Salad,76,Roasted Tomatoes,1
+58,Salad Bar,Feta Salad,76,Olive,2
+62,Salad Bar,BLT Salad,89,Lettuce,3
+62,Salad Bar,BLT Salad,89,Bacon,2
+62,Salad Bar,BLT Salad,89,Roasted Tomatoes,1
+62,Salad Bar,BLT Salad,89,Mayonnaise,1
+64,Salad Bar,Seafood Salad,102,Lettuce,3
+64,Salad Bar,Seafood Salad,102,Lobster Tail,1
+64,Salad Bar,Seafood Salad,102,Fish Fillet,1
+64,Salad Bar,Seafood Salad,102,Mayonnaise,1
+67,Salad Bar,Pasta Salad,127,Fresh Pasta,4
+67,Salad Bar,Pasta Salad,127,Olive Oil,1
+67,Salad Bar,Pasta Salad,127,Lemon,2
+67,Salad Bar,Pasta Salad,127,Tomato,2
+74,Salad Bar,Veggie Platter,102,Bell Pepper,2
+74,Salad Bar,Veggie Platter,102,Carrot,2
+74,Salad Bar,Veggie Platter,102,Tomato,2
+74,Salad Bar,Veggie Platter,102,Cream,1
+78,Salad Bar,Summer Rolls,51,Rice Noodles,2
+78,Salad Bar,Summer Rolls,51,Carrot,2
+78,Salad Bar,Summer Rolls,51,Lettuce,1
+78,Salad Bar,Summer Rolls,51,Chili Pepper,1
+82,Salad Bar,Fruit Salad,102,Orange,1
+82,Salad Bar,Fruit Salad,102,Strawberry,3
+82,Salad Bar,Fruit Salad,102,Blackberry,2
+82,Salad Bar,Fruit Salad,102,Honey,1
+84,Salad Bar,Summer Salad,153,Peach,1
+84,Salad Bar,Summer Salad,153,Tomato,3
+84,Salad Bar,Summer Salad,153,Goat Cheese,1
+84,Salad Bar,Summer Salad,153,Onion,3
+89,Salad Bar,Mushroom Salad,51,Mushroom,3
+89,Salad Bar,Mushroom Salad,51,Lettuce,1
+89,Salad Bar,Mushroom Salad,51,Bacon,1
+89,Salad Bar,Mushroom Salad,51,Tomato,2
+61,Sandwich Bar,Veggie Bagel,34,Bread,2
+61,Sandwich Bar,Veggie Bagel,34,Lettuce,3
+61,Sandwich Bar,Veggie Bagel,34,Tomato,2
+61,Sandwich Bar,Veggie Bagel,34,Olive Oil,1
+65,Sandwich Bar,Bacon Toast,85,Bread,2
+65,Sandwich Bar,Bacon Toast,85,Lettuce,3
+65,Sandwich Bar,Bacon Toast,85,Tomato,2
+65,Sandwich Bar,Bacon Toast,85,Mayonnaise,1
+66,Sandwich Bar,Egg Sandwich,68,Bread,2
+66,Sandwich Bar,Egg Sandwich,68,Lettuce,3
+66,Sandwich Bar,Egg Sandwich,68,Egg,2
+66,Sandwich Bar,Egg Sandwich,68,Mayonnaise,1
+69,Sandwich Bar,Honey Toast,51,Bread,1
+69,Sandwich Bar,Honey Toast,51,Egg,1
+69,Sandwich Bar,Honey Toast,51,Milk,1
+69,Sandwich Bar,Honey Toast,51,Honey,1
+79,Sandwich Bar,Cucumber Sandwich,29,Cucumber,2
+79,Sandwich Bar,Cucumber Sandwich,29,Bread,2
+79,Sandwich Bar,Cucumber Sandwich,29,Mayonnaise,1
+84,Sandwich Bar,Onion Melt,76,Corn Bread,2
+84,Sandwich Bar,Onion Melt,76,Onion,3
+84,Sandwich Bar,Onion Melt,76,Cheese,1
+92,Sandwich Bar,Goat Cheese Toast,42,Bread,1
+92,Sandwich Bar,Goat Cheese Toast,42,Goat Cheese,1
+92,Sandwich Bar,Goat Cheese Toast,42,Grapes,3
+64,Smoothie Mixer,Berry Smoothie,63,Raspberry,3
+64,Smoothie Mixer,Berry Smoothie,63,Blackberry,3
+64,Smoothie Mixer,Berry Smoothie,63,Strawberry,3
+66,Smoothie Mixer,Green Smoothie,38,Lettuce,5
+66,Smoothie Mixer,Green Smoothie,38,Apple,1
+66,Smoothie Mixer,Green Smoothie,38,Lemon,1
+70,Smoothie Mixer,Yogurt Smoothie,51,Cream,1
+70,Smoothie Mixer,Yogurt Smoothie,51,White Sugar,1
+70,Smoothie Mixer,Yogurt Smoothie,51,Raspberry,2
+70,Smoothie Mixer,Yogurt Smoothie,51,Cherry,1
+79,Smoothie Mixer,Cucumber Smoothie,34,Cucumber,3
+70,Smoothie Mixer,Cucumber Smoothie,34,Pineapple,3
+70,Smoothie Mixer,Cucumber Smoothie,34,Honey,1
+88,Smoothie Mixer,Mixed Smoothie,25,Peach,2
+88,Smoothie Mixer,Mixed Smoothie,25,Orange,2
+88,Smoothie Mixer,Mixed Smoothie,25,Lemon,1
+93,Smoothie Mixer,Black Sesame Smoothie,38,Sesame,3
+93,Smoothie Mixer,Black Sesame Smoothie,38,Banana,1
+93,Smoothie Mixer,Black Sesame Smoothie,38,Goat Milk,2
+100,Smoothie Mixer,Cocoa Smoothie,34,Cacao,3
+100,Smoothie Mixer,Cocoa Smoothie,34,Banana,2
+100,Smoothie Mixer,Cocoa Smoothie,34,Milk,1
+102,Smoothie Mixer,Plum Smoothie,29,Plum,3
+102,Smoothie Mixer,Plum Smoothie,29,Grapes,2
+102,Smoothie Mixer,Plum Smoothie,29,Mint,1
+102,Smoothie Mixer,Plum Smoothie,29,Honey,1
+67,Pasta Maker,Rice Noodles,15,Wheat,2
+67,Pasta Maker,Rice Noodles,15,Egg,1
+73,Pasta Maker,Fresh Pasta,20,Rice,5
+70,Hat Maker,Cloche Hat,102,Wool,6
+70,Hat Maker,Cloche Hat,102,Strawberry,2
+72,Hat Maker,Top Hat,178,Cotton Fabric,3
+73,Hat Maker,Top Hat,178,Duck Feather,1
+72,Hat Maker,Top Hat,178,Refined Coal,1
+74,Hat Maker,Sun Hat,127,Wool,3
+74,Hat Maker,Sun Hat,127,Duck Feather,2
+74,Hat Maker,Sun Hat,127,Indigo,1
+74,Hat Maker,Sun Hat,127,Raspberry,1
+86,Hat Maker,Flower Crown,102,Peony,5
+86,Hat Maker,Flower Crown,102,Cotton,4
+72,Pasta Kitchen,Gnocchi,80,Potato,4
+72,Pasta Kitchen,Gnocchi,80,Wheat,2
+72,Pasta Kitchen,Gnocchi,80,Tomato,3
+72,Pasta Kitchen,Gnocchi,80,Butter,2
+74,Pasta Kitchen,Veggie Lasagna,100,Fresh Pasta,3
+74,Pasta Kitchen,Veggie Lasagna,100,Cheese,1
+74,Pasta Kitchen,Veggie Lasagna,100,Tomato Sauce,1
+74,Pasta Kitchen,Veggie Lasagna,100,Carrot,1
+79,Pasta Kitchen,Lobster Pasta,120,Fresh Pasta,3
+79,Pasta Kitchen,Lobster Pasta,120,Lobster Tail,1
+79,Pasta Kitchen,Lobster Pasta,120,Tomato,4
+79,Pasta Kitchen,Lobster Pasta,120,Cream,2
+83,Pasta Kitchen,Pasta Carbonara,150,Fresh Pasta,3
+83,Pasta Kitchen,Pasta Carbonara,150,Egg,2
+83,Pasta Kitchen,Pasta Carbonara,150,Bacon,2
+83,Pasta Kitchen,Pasta Carbonara,150,Cheese,1
+83,Pasta Kitchen,Broccoli Pasta,60,Broccoli,3
+83,Pasta Kitchen,Broccoli Pasta,60,Fresh Pasta,3
+83,Pasta Kitchen,Broccoli Pasta,60,Cheese,1
+87,Pasta Kitchen,Spicy Pasta,90,Fresh Pasta,3
+87,Pasta Kitchen,Spicy Pasta,90,Tomato Sauce,1
+87,Pasta Kitchen,Spicy Pasta,90,Chili Pepper,3
+87,Pasta Kitchen,Spicy Pasta,90,Onion,2
+101,Pasta Kitchen,Mushroom Pasta,75,Fresh Pasta,3
+101,Pasta Kitchen,Mushroom Pasta,75,Mushroom,5
+101,Pasta Kitchen,Mushroom Pasta,75,Goat Cheese,1
+75,Hot Dog Stand,Hot Dog,30,Bread,1
+75,Hot Dog Stand,Hot Dog,30,Bacon,2
+75,Hot Dog Stand,Hot Dog,30,Tomato Sauce,1
+76,Hot Dog Stand,Tofu Dog,45,Lettuce,3
+76,Hot Dog Stand,Tofu Dog,45,Soy Sauce,6
+76,Hot Dog Stand,Tofu Dog,45,Tomato,4
+78,Hot Dog Stand,Corn Dog,60,Bacon,4
+78,Hot Dog Stand,Corn Dog,60,Corn,4
+78,Hot Dog Stand,Corn Dog,60,Olive Oil,1
+78,Hot Dog Stand,Onion Dog,75,Bread,1
+80,Hot Dog Stand,Onion Dog,75,Bacon,2
+80,Hot Dog Stand,Onion Dog,75,Onion,3
+80,Hot Dog Stand,Onion Dog,75,Chili Pepper,1
+77,Taco Kitchen,Taco,45,Corn Bread,1
+77,Taco Kitchen,Taco,45,Bacon,1
+77,Taco Kitchen,Taco,45,Salsa,1
+79,Taco Kitchen,Fish Taco,90,Corn Bread,2
+79,Taco Kitchen,Fish Taco,90,Fish Fillet,1
+79,Taco Kitchen,Fish Taco,90,Chili Pepper,2
+79,Taco Kitchen,Fish Taco,90,Lemon,1
+82,Taco Kitchen,Quesadilla,60,Wheat,4
+82,Taco Kitchen,Quesadilla,60,Cheese,1
+82,Taco Kitchen,Quesadilla,60,Chili Pepper,2
+87,Taco Kitchen,Nachos,75,Corn,4
+87,Taco Kitchen,Nachos,75,Salsa,1
+87,Taco Kitchen,Nachos,75,Cheese,1
+80,Tea Stand,Green Tea,30,Tea Leaf,5
+81,Tea Stand,Milk Tea,45,Tea Leaf,3
+81,Tea Stand,Milk Tea,45,Milk,1
+83,Tea Stand,Honey Tea,40,Tea Leaf,3
+83,Tea Stand,Honey Tea,40,Honey,1
+86,Tea Stand,Lemon Tea,20,Tea Leaf,3
+86,Tea Stand,Lemon Tea,20,Lemon,1
+88,Tea Stand,Apple Ginger Tea,30,Ginger,1
+88,Tea Stand,Apple Ginger Tea,30,Apple,2
+88,Tea Stand,Apple Ginger Tea,30,Tea Leaf,1
+89,Tea Stand,Orange Tea,40,Tea Leaf,3
+89,Tea Stand,Orange Tea,40,Orange,1
+92,Tea Stand,Iced Tea,30,Tea Leaf,3
+92,Tea Stand,Iced Tea,30,Peach,2
+97,Tea Stand,Mint Tea,35,Tea Leaf,3
+97,Tea Stand,Mint Tea,35,Mint,2
+97,Tea Stand,Mint Tea,35,Watermelon,1
