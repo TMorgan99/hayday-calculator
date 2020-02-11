@@ -1,10 +1,9 @@
-import React, {useEffect} from 'react'
+import React from 'react'
 import * as d3 from 'd3'
 
 const [width, height] = [4860, 1200] // in full screen window
 const myLevel = 50 // start small. very, very small 
 const url = './data/building.csv'
-
 const imageFor = (name) => `/images/${name.replace( /\s/g, '_' )}.png`
 
 const parseGraph = (data) => {
@@ -16,13 +15,13 @@ const parseGraph = (data) => {
     let inlinks = []
     let outlinks = []
     // I build these into objects so that key collision will give me uniqueness
-        data.forEach(d => {
-          buildings[d.building] = {name: d.building}
-          nodes[d.ingredient] = {name: d.ingredient}
-          nodes[d.product] = {name: d.product}
-          inlinks[d.ingredient+d.building] = {source: d.ingredient, target: d.building }
-          outlinks[d.building+d.product] = {source: d.building, target: d.product }
-        })
+    data.forEach(d => {
+      buildings[d.building] = {name: d.building}
+      nodes[d.ingredient] = {name: d.ingredient}
+      nodes[d.product] = {name: d.product}
+      inlinks[d.ingredient+d.building] = {source: d.ingredient, target: d.building }
+      outlinks[d.building+d.product] = {source: d.building, target: d.product }
+    })
     // now I remove the keys, leaving unique values
     return ({
       buildings:  d3.values(buildings),
@@ -44,13 +43,14 @@ const D3App = () => {
     
   const tickActions = () => {
       //update circle positions each tick of the simulation
-    const radius = 100 
+    const radius = 100 // of the bounding box
     const boundX = (x) => Math.max(radius, Math.min(width - radius, x))
-    const boundY = (y) => Math.max(radius, Math.min(height - radius, y))
+    const boundY = (y) => Math.max(radius, Math.min(height - radius -25, y))  // allow bottom margin
     building
       .attr("transform", (d) => `translate(${d.x=boundX(d.x)} ${d.y=boundY(d.y)})` )
     product
       .attr("transform", (d) => `translate(${d.x=boundX(d.x)} ${d.y=boundY(d.y)})` )
+
       // link
       //     .attr("x1", (d) => d.source.x )
       //     .attr("y1", (d) => d.source.y )
@@ -100,7 +100,6 @@ const D3App = () => {
       .append('image')
       .attr('href', (d) => imageFor(d.name))
   
-          
   // draw lines for the links 
 
   //set up the simulation 
@@ -120,27 +119,24 @@ const D3App = () => {
           d.fx = d.x
           d.fy = d.y
       }
-          
       const dragged = (d) => {
           d.fx = d3.event.x
           d.fy = d3.event.y
       }
-      
       const dragended = (d) => {
           if (!d3.event.active) simulation.alphaTarget(0)
           d.fx = null
           d.fy = null
       }
-          
       return d3.drag()
           .on("start", dragstarted)
           .on("drag", dragged)
-          .on("end", dragended);
+          .on("end", dragended)
     }  
-  
-  building.call(drag(simulation))
+  // allow buildings to be dragged about
+      building.call(drag(simulation))
 
-    })  //then()callback
+    })  //then() callback
   // ====================================================================
   
   return ( <svg width={width} height={height} /> )
