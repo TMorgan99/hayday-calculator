@@ -67,17 +67,12 @@ g.product image {
   width: 60px;
 }
 
+/* ===== links ===== */
 
-/* 
-.node text {
-  text-anchor: middle;
-  text-shadow: 1px 1px 2px navy; 
-  text-transform: capitalize;
- }
- */
-
- .links line {
+.links line {
   stroke: black;
-  stroke-opacity: 0.9;
-  stroke-width: 5px;
+  stroke-opacity: 0.8;
+  stroke-width: 3px;
+  marker-end: url(#arrow);
 }
+
